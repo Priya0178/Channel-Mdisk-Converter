@@ -9,11 +9,11 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "12124605"))
-API_HASH = os.environ.get("API_HASH", "5cf3577d85fd02286535ec2296934287")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5574279873:AAHb22nEOdC2dbwY_9GpU838frtUAvyFoQI")
+API_ID = int(os.environ.get("API_ID", "19397648"))
+API_HASH = os.environ.get("API_HASH", "ed2db4aa6ab5f67fde7b88b8f17e85d0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6007761516:AAETfY-XCo__kSGc_NJZVteI103dH7c2ULw")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+MDISK_API = os.environ.get("MDISK_API", "c5xYc8VdCxeWFjbqbeA0")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
